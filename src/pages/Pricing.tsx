@@ -10,7 +10,7 @@ const Pricing = () => {
     {
       title: "Базовий",
       originalPrice: "12,000",
-      discountPrice: "6,000",
+      discountPrice: "5,990",
       category: "Категорія B (механіка)",
       features: [
         "40 годин теоретичних занять онлайн",
@@ -24,7 +24,7 @@ const Pricing = () => {
     {
       title: "Комфорт",
       originalPrice: "10,000",
-      discountPrice: "5,000",
+      discountPrice: "4,990",
       category: "Категорія B (автомат)",
       features: [
         "40 годин теоретичних занять онлайн",
@@ -38,7 +38,7 @@ const Pricing = () => {
     {
       title: "Преміум",
       originalPrice: "16,000",
-      discountPrice: "8,000",
+      discountPrice: "7,990",
       category: "Категорія B (механіка)",
       features: [
         "40 годин теоретичних занять онлайн",

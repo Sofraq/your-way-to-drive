@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Mail, MapPin } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const Footer = () => {
   return (
@@ -8,11 +9,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo & Description */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold text-xl">
-                А
-              </div>
-              <span className="font-bold text-xl text-foreground">Автошкола</span>
+            <div>
+              <span className="font-bold text-xl text-foreground">DriveZone</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Сучасна онлайн автошкола з професійними інструкторами та новим автопарком.
@@ -71,12 +69,32 @@ const Footer = () => {
                 <span>м. Київ, вул. Хрещатик, 15 (центр міста)</span>
               </li>
             </ul>
+            <div className="flex flex-col gap-2 mt-4">
+              <Button asChild size="sm" className="w-full">
+                <a 
+                  href="https://t.me/Julia_m_ua"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Telegram: Юлія
+                </a>
+              </Button>
+              <Button asChild size="sm" variant="outline" className="w-full">
+                <a 
+                  href="https://t.me/Manager_diana_ua"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Telegram: Діана
+                </a>
+              </Button>
+            </div>
           </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-border">
           <p className="text-center text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Автошкола. Всі права захищені.
+            © {new Date().getFullYear()} DriveZone. Всі права захищені.
           </p>
         </div>
       </div>
