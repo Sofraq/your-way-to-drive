@@ -43,7 +43,7 @@ const Courses = () => {
   const courses = [
     {
       title: "Категорія B (легкові автомобілі)",
-      duration: "2-3 місяці",
+      duration: "1,5 місяця",
       theory: "40 годин",
       practice: "30 годин",
       description: "Повний курс для отримання прав категорії B. Включає теоретичну підготовку онлайн та практичні заняття з інструктором.",
@@ -57,7 +57,7 @@ const Courses = () => {
     },
     {
       title: "Категорія B (автомат)",
-      duration: "2-3 місяці",
+      duration: "1 місяць",
       theory: "40 годин",
       practice: "25 годин",
       description: "Спрощений курс для тих, хто бажає навчитися водінню на автомобілі з автоматичною коробкою передач.",
@@ -192,7 +192,7 @@ const Courses = () => {
                   <div className="text-4xl font-bold text-primary mb-4">1</div>
                   <h3 className="font-semibold mb-2">Реєстрація</h3>
                   <p className="text-sm text-muted-foreground">
-                    Залишіть заявку на сайті або зателефонуйте нам
+                    Зв'яжіться з менеджером і залиште заявку
                   </p>
                 </CardContent>
               </Card>
