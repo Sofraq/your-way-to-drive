@@ -63,16 +63,12 @@ const Footer = () => {
             <h3 className="font-semibold mb-4">Контакти</h3>
             <ul className="space-y-3">
               <li className="flex items-center space-x-2 text-sm text-muted-foreground">
-                <Phone size={16} className="text-primary" />
-                <span>+380 (68) 123-45-67</span>
-              </li>
-              <li className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <Mail size={16} className="text-primary" />
                 <span>info@avtoshkola.ua</span>
               </li>
               <li className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <MapPin size={16} className="text-primary" />
-                <span>м. Київ, вул. Хрещатик, 1</span>
+                <span>м. Київ, вул. Хрещатик, 15 (центр міста)</span>
               </li>
             </ul>
           </div>

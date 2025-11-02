@@ -47,7 +47,9 @@ const Header = () => {
 
         <div className="hidden md:block">
           <Button asChild>
-            <Link to="/contact">Записатися</Link>
+            <a href="https://t.me/Julia_m_ua" target="_blank" rel="noopener noreferrer">
+              Записатися
+            </a>
           </Button>
         </div>
 
@@ -79,9 +81,14 @@ const Header = () => {
               </Link>
             ))}
             <Button asChild className="w-full">
-              <Link to="/contact" onClick={() => setIsMenuOpen(false)}>
+              <a 
+                href="https://t.me/Julia_m_ua" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                onClick={() => setIsMenuOpen(false)}
+              >
                 Записатися
-              </Link>
+              </a>
             </Button>
           </nav>
         </div>

@@ -11,8 +11,18 @@ const Index = () => {
   const features = [
     {
       icon: <GraduationCap className="h-8 w-8" />,
-      title: "Онлайн навчання",
-      description: "Вчіться з будь-якого міста України в зручний для вас час",
+      title: "100% онлайн навчання",
+      description: "Повністю дистанційний формат — навчайтеся з будь-якої точки України",
+    },
+    {
+      icon: <Clock className="h-8 w-8" />,
+      title: "Швидке отримання прав",
+      description: "1-1,5 місяця до ваших водійських прав з повною підтримкою",
+    },
+    {
+      icon: <CheckCircle className="h-8 w-8" />,
+      title: "Повна допомога",
+      description: "Супроводжуємо на всіх етапах: від навчання до отримання прав",
     },
     {
       icon: <Car className="h-8 w-8" />,
@@ -26,18 +36,8 @@ const Index = () => {
     },
     {
       icon: <Award className="h-8 w-8" />,
-      title: "Ліцензована школа",
-      description: "Офіційна ліцензія та сертифікати якості",
-    },
-    {
-      icon: <Clock className="h-8 w-8" />,
-      title: "Гнучкий графік",
-      description: "Навчайтеся у зручний для вас час",
-    },
-    {
-      icon: <CheckCircle className="h-8 w-8" />,
-      title: "Високий відсоток здачі",
-      description: "95% наших студентів здають іспит з першого разу",
+      title: "Офіційна ліцензія",
+      description: "Ліцензована автошкола з сертифікатами якості",
     },
   ];
 
@@ -66,17 +66,19 @@ const Index = () => {
               </div>
               
               <h1 className="text-5xl md:text-6xl font-bold text-foreground leading-tight">
-                Отримайте права швидко і впевнено
+                Водійські права за 1-1,5 місяця онлайн
               </h1>
               
               <p className="text-xl text-muted-foreground">
-                Сучасна онлайн автошкола з досвідченими викладачами та новим автопарком. 
-                Навчайтеся з будь-якого міста України!
+                Повністю дистанційне навчання з будь-якої точки України. 
+                Ми супроводжуємо вас на всіх етапах — від навчання до отримання прав!
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild size="lg" className="text-lg">
-                  <Link to="/contact">Записатися зараз</Link>
+                  <a href="https://t.me/Julia_m_ua" target="_blank" rel="noopener noreferrer">
+                    Записатися зараз
+                  </a>
                 </Button>
                 <Button asChild variant="outline" size="lg" className="text-lg">
                   <Link to="/courses">Дізнатися більше</Link>
@@ -184,7 +186,9 @@ const Index = () => {
                   Залишіть заявку зараз і отримайте безкоштовну консультацію від наших фахівців
                 </p>
                 <Button asChild size="lg" className="text-lg">
-                  <Link to="/contact">Записатися на навчання</Link>
+                  <a href="https://t.me/Julia_m_ua" target="_blank" rel="noopener noreferrer">
+                    Записатися на навчання
+                  </a>
                 </Button>
               </CardContent>
             </Card>
