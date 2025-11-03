@@ -45,9 +45,6 @@ const Contact = () => {
                   <Card key={manager.username} className="border-2 hover:border-primary transition-colors">
                     <CardContent className="pt-6">
                       <div className="text-center space-y-4">
-                        <div className="w-16 h-16 rounded-full bg-primary/10 text-primary mx-auto flex items-center justify-center text-2xl font-bold">
-                          {manager.name[0]}
-                        </div>
                         <div>
                           <h3 className="font-semibold text-xl mb-1">{manager.name}</h3>
                           <p className="text-sm text-muted-foreground">{manager.role}</p>
@@ -79,10 +76,10 @@ const Contact = () => {
                       <div>
                         <h3 className="font-semibold mb-2">Email</h3>
                         <a 
-                          href="mailto:info@avtoshkola.ua" 
+                          href="mailto:drivezoneua@hotmail.com" 
                           className="text-muted-foreground hover:text-primary transition-colors break-all"
                         >
-                          info@avtoshkola.ua
+                          drivezoneua@hotmail.com
                         </a>
                         <p className="text-sm text-muted-foreground mt-1">
                           Відповідаємо протягом 24 годин
