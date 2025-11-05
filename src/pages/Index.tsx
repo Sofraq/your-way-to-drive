@@ -198,6 +198,7 @@ const Index = () => {
                       <MapPin className="h-6 w-6" />
                     </div>
                     <h3 className="font-semibold text-lg">Київ</h3>
+                    <p className="text-sm text-muted-foreground">вул. Хрещатик, 15 (центр міста)</p>
                   </div>
                 </CardContent>
               </Card>
@@ -209,6 +210,7 @@ const Index = () => {
                       <MapPin className="h-6 w-6" />
                     </div>
                     <h3 className="font-semibold text-lg">Харків</h3>
+                    <p className="text-sm text-muted-foreground">вул. Донець-Захаржевського, 5</p>
                   </div>
                 </CardContent>
               </Card>
@@ -220,6 +222,7 @@ const Index = () => {
                       <MapPin className="h-6 w-6" />
                     </div>
                     <h3 className="font-semibold text-lg">Дніпро</h3>
+                    <p className="text-sm text-muted-foreground">вул. Глінки, 2 (ТРЦ "Мост Сіті")</p>
                   </div>
                 </CardContent>
               </Card>

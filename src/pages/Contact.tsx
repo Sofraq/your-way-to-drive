@@ -65,8 +65,8 @@ const Contact = () => {
                 ))}
               </div>
 
-              {/* Email and Address */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {/* Email */}
+              <div className="mb-6">
                 <Card>
                   <CardContent className="pt-6">
                     <div className="flex items-start space-x-4">
@@ -88,24 +88,62 @@ const Contact = () => {
                     </div>
                   </CardContent>
                 </Card>
+              </div>
 
-                <Card>
-                  <CardContent className="pt-6">
-                    <div className="flex items-start space-x-4">
-                      <div className="p-3 rounded-full bg-primary/10 text-primary">
-                        <MapPin className="h-6 w-6" />
+              {/* Addresses */}
+              <div>
+                <h2 className="text-2xl font-bold mb-6 text-center">Наші філіали</h2>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                  <Card>
+                    <CardContent className="pt-6">
+                      <div className="flex items-start space-x-4">
+                        <div className="p-3 rounded-full bg-primary/10 text-primary">
+                          <MapPin className="h-6 w-6" />
+                        </div>
+                        <div>
+                          <h3 className="font-semibold mb-2">Київ</h3>
+                          <p className="text-muted-foreground text-sm">
+                            вул. Хрещатик, 15<br />
+                            (центр міста)
+                          </p>
+                        </div>
                       </div>
-                      <div>
-                        <h3 className="font-semibold mb-2">Адреса</h3>
-                        <p className="text-muted-foreground">
-                          м. Київ<br />
-                          вул. Хрещатик, 15<br />
-                          (центр міста)
-                        </p>
+                    </CardContent>
+                  </Card>
+
+                  <Card>
+                    <CardContent className="pt-6">
+                      <div className="flex items-start space-x-4">
+                        <div className="p-3 rounded-full bg-primary/10 text-primary">
+                          <MapPin className="h-6 w-6" />
+                        </div>
+                        <div>
+                          <h3 className="font-semibold mb-2">Харків</h3>
+                          <p className="text-muted-foreground text-sm">
+                            вул. Донець-Захаржевського, 5
+                          </p>
+                        </div>
                       </div>
-                    </div>
-                  </CardContent>
-                </Card>
+                    </CardContent>
+                  </Card>
+
+                  <Card>
+                    <CardContent className="pt-6">
+                      <div className="flex items-start space-x-4">
+                        <div className="p-3 rounded-full bg-primary/10 text-primary">
+                          <MapPin className="h-6 w-6" />
+                        </div>
+                        <div>
+                          <h3 className="font-semibold mb-2">Дніпро</h3>
+                          <p className="text-muted-foreground text-sm">
+                            вул. Глінки, 2<br />
+                            (ТРЦ "Мост Сіті")
+                          </p>
+                        </div>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </div>
               </div>
             </div>
           </div>
