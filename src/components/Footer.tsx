@@ -72,7 +72,7 @@ const Footer = () => {
             <div className="flex flex-col gap-2 mt-4">
               <Button asChild size="sm" className="w-full">
                 <a 
-                  href="https://t.me/Julia_m_ua"
+                  href="https://t.me/Drive_Zone_ua"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
