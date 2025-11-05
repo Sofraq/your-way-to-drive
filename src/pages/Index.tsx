@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle, Clock, Users, Award, Car, GraduationCap } from "lucide-react";
+import { CheckCircle, Clock, Users, Award, Car, GraduationCap, MapPin } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import heroBanner from "@/assets/hero-banner.jpg";
@@ -82,7 +82,7 @@ const Index = () => {
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild size="lg" className="text-lg">
-                  <a href="https://t.me/Julia_m_ua" target="_blank" rel="noopener noreferrer">
+                  <a href="https://t.me/Drive_Zone_ua" target="_blank" rel="noopener noreferrer">
                     Записатися зараз
                   </a>
                 </Button>
@@ -180,6 +180,68 @@ const Index = () => {
           </div>
         </section>
 
+        {/* Locations Section */}
+        <section className="py-16 bg-muted/40">
+          <div className="container">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">Наші філіали по всій Україні</h2>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                DriveZone має представництва у найбільших містах України для вашої зручності
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <Card className="text-center">
+                <CardContent className="pt-6">
+                  <div className="flex flex-col items-center space-y-3">
+                    <div className="p-3 rounded-full bg-primary/10 text-primary">
+                      <MapPin className="h-6 w-6" />
+                    </div>
+                    <h3 className="font-semibold text-lg">Київ</h3>
+                    <p className="text-sm text-muted-foreground">вул. Хрещатик, 15</p>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="text-center">
+                <CardContent className="pt-6">
+                  <div className="flex flex-col items-center space-y-3">
+                    <div className="p-3 rounded-full bg-primary/10 text-primary">
+                      <MapPin className="h-6 w-6" />
+                    </div>
+                    <h3 className="font-semibold text-lg">Харків</h3>
+                    <p className="text-sm text-muted-foreground">Центр міста</p>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="text-center">
+                <CardContent className="pt-6">
+                  <div className="flex flex-col items-center space-y-3">
+                    <div className="p-3 rounded-full bg-primary/10 text-primary">
+                      <MapPin className="h-6 w-6" />
+                    </div>
+                    <h3 className="font-semibold text-lg">Дніпро</h3>
+                    <p className="text-sm text-muted-foreground">Центр міста</p>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="text-center">
+                <CardContent className="pt-6">
+                  <div className="flex flex-col items-center space-y-3">
+                    <div className="p-3 rounded-full bg-primary/10 text-primary">
+                      <MapPin className="h-6 w-6" />
+                    </div>
+                    <h3 className="font-semibold text-lg">Інші міста</h3>
+                    <p className="text-sm text-muted-foreground">Одеса, Львів, Запоріжжя</p>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </section>
+
         {/* CTA Section */}
         <section className="py-16 bg-muted/40">
           <div className="container">
@@ -192,7 +254,7 @@ const Index = () => {
                   Залишіть заявку зараз і отримайте безкоштовну консультацію від наших фахівців
                 </p>
                 <Button asChild size="lg" className="text-lg">
-                  <a href="https://t.me/Julia_m_ua" target="_blank" rel="noopener noreferrer">
+                  <a href="https://t.me/Drive_Zone_ua" target="_blank" rel="noopener noreferrer">
                     Записатися на навчання
                   </a>
                 </Button>
