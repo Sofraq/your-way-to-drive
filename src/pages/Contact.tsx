@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, MapPin, Send } from "lucide-react";
+import { Mail, MapPin, Send, MessageCircle } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
@@ -63,6 +63,35 @@ const Contact = () => {
                     </CardContent>
                   </Card>
                 ))}
+              </div>
+
+              {/* Viber */}
+              <div className="mb-6">
+                <Card className="border-2 hover:border-primary transition-colors">
+                  <CardContent className="pt-6">
+                    <div className="flex items-start space-x-4">
+                      <div className="p-3 rounded-full bg-primary/10 text-primary">
+                        <MessageCircle className="h-6 w-6" />
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="font-semibold mb-2">Viber</h3>
+                        <p className="text-muted-foreground mb-3">
+                          Менеджер Юлія: +380914245857
+                        </p>
+                        <Button asChild className="w-full sm:w-auto">
+                          <a 
+                            href="viber://chat?number=%2B380914245857"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <MessageCircle className="mr-2 h-5 w-5" />
+                            Написати в Viber
+                          </a>
+                        </Button>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
               </div>
 
               {/* Email */}

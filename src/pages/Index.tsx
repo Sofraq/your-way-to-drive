@@ -82,7 +82,7 @@ const Index = () => {
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild size="lg" className="text-lg">
-                  <a href="https://t.me/Drive_Zone_ua" target="_blank" rel="noopener noreferrer">
+                  <a href="viber://chat?number=%2B380914245857" target="_blank" rel="noopener noreferrer">
                     Записатися зараз
                   </a>
                 </Button>
